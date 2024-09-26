@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import {deleteVideoHistoryAPI, getVideoHistoryAPI} from '../../services/allAPI'
+import { deleteVideoHistoryAPI, getVideoHistoryAPI } from '../../services/allAPI'
 
 function History() {
 const [history,setHistory]=useState([])
